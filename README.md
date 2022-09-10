@@ -26,5 +26,5 @@ The user can enter their desired text at the top of the page. They can click the
 
 ## Credits
 
-Starter code provided by Xandromus
-Code added by Angie Gustafson (angiebunk1)
+-  Starter code provided by Xandromus
+-  Code added by Angie Gustafson (angiebunk1)
