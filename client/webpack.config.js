@@ -27,7 +27,6 @@ module.exports = () => {
         short_name: 'JATE',
         description: 'A place to create and store notes, on or offline',
         background_color: '#272822',
-        theme_color: '#272822',
         start_url: './',
         publicPath: './',
         icons: [
@@ -36,12 +35,6 @@ module.exports = () => {
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
-          {
-            src: path.resolve('src/images/logo.png'),
-            size: '1024x1024',
-            destination: path.join('assets', 'icons'),
-            purpose: 'maskable'
-          }
         ],
       }), 
       new InjectManifest({

@@ -16,11 +16,11 @@ const initdb = async () =>
 export const putDb = async (content) => {
   console.log('PUT to the database');
 
-  const contactDb = await openDB('contact_db', 1);
+  const jateDb = await openDB('jate', 1);
 
-  const tx = contactDb.transaction('contact_db', 'readwrite');
+  const tx = jateDb.transaction('jate', 'readwrite');
 
-  const store = tx.objectStore('contacts');
+  const store = tx.objectStore('jate');
   
   const request = store.put({ content });
   const result = await request;
@@ -31,11 +31,11 @@ export const putDb = async (content) => {
 export const getDb = async () => {
   console.log('GET from the database');
 
-  const contactDb = await openDB('contact_db', 1);
+  const jateDb = await openDB('jate', 1);
 
-  const tx = contactDb.transaction('contact_db', 'readonly');
+  const tx = jateDb.transaction('jate', 'readonly');
 
-  const store = tx.objectStore('contacts');
+  const store = tx.objectStore('jate');
 
   const request = store.getAll();
 
