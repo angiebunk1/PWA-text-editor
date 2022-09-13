@@ -4,8 +4,6 @@
 
 This is a Progressive Web Application text editor. The user can record messages to retrieve later, as well as work with the application offline.
 
-Currently, no all desired functions of this application are working. It is failing to reload notes upon reboot of the page. It is failing to load the icons. However, it receives notes and it is installable.
-
 The deployed application can be found here: https://secret-spire-05942.herokuapp.com/
 
 ## Usage
@@ -26,5 +24,5 @@ The user can enter their desired text at the top of the page. They can click the
 
 ## Credits
 
--  Starter code provided by Xandromus
--  Code added by Angie Gustafson (angiebunk1)
+- Starter code provided by Xandromus
+- Code added by Angie Gustafson (angiebunk1)
