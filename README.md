@@ -6,7 +6,7 @@ This is a Progressive Web Application text editor. The user can record messages 
 
 Currently, no all desired functions of this application are working. It is failing to reload notes upon reboot of the page. It is failing to load the icons. However, it receives notes and it is installable.
 
-The deployed application can be found here: https://dashboard.heroku.com/apps/secret-spire-05942
+The deployed application can be found here: https://secret-spire-05942.herokuapp.com/
 
 ## Usage
 
